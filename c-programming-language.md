@@ -39,7 +39,7 @@
     - Preprocessor copies the preprocessed code of the .h to our file.
     - **include directive**:
       - Contents of included header file (after preprocessing) are copied to the current file.
-      - Angular brackets < and > instruct the preprocessor to look in the standard folder where all header files are held.  
+      - Angular brackets < and > instruct the preprocessor to look in the standard folder where all header files are held.
       - Double quotes “ and “ instruct the preprocessor to look into the current folder (current directory).
     - When we use define for a constant, the preprocessor produces a C program where the defined constant is searched and matching tokens are replaced with the given expression.
     ```c
@@ -371,7 +371,7 @@ using        virtual     wchar_t
 - It should be up to 31 characters long as only first 31 characters are significant.
 
 3. Constants: 
-- Like normal variables, except their values can not be modified by the program once they are defined. 
+- Like normal variables, except their values cannot be modified by the program once they are defined. 
 - Constants refer to fixed values. They are also called as literals.
 - Constants may belong to any of the data type.
 - Syntax:
@@ -381,7 +381,8 @@ using        virtual     wchar_t
 - Array of characters ended with a null character (‘\0’).
 - This null character indicates the end of the string. 
 - Strings are always enclosed in double quotes. 
-- Whereas, a character is enclosed in single quotes in C and C++.Declarations for String:
+- Whereas, a character is enclosed in single quotes in C and C++.
+- Declarations for String:
 ```c
 char string[20] = {‘g’, ’e’, ‘e’, ‘k’, ‘s’, ‘f’, ‘o’, ‘r’, ‘g’, ’e’, ‘e’, ‘k’, ‘s’, ‘\0’};
 char string[20] = “geeksforgeeks”;

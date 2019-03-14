@@ -14,9 +14,8 @@
 - Preprocessor copies the preprocessed code of the .h to our file.
 - Java compilation takes .java file and produces .class file.
 - Preprocessors also support if-else directives which are typically used for conditional compilation.
-- Java no equivalent.
-- I suppose you could argue Angular uses this technique with *ngIf directives.
-
+  - Java no equivalent.
+  - I suppose you could argue Angular uses this technique with *ngIf directives.
 
 # Main Function
 ```int main(void) { /* ... */ }```
@@ -25,6 +24,8 @@
 - The value returned by main indicates status of program termination.
 - Variables are to be declared before any operation in the function.
 - Java starts with public static void main(String[] args) {}
+- JavaScript starts with the first line in the file.
+- Python starts with the first line in the file.
 
 # Return Statement
 - The last part in any C program is the return statement. 
@@ -36,7 +37,7 @@
 # Macros
 - #define INCREMENT(x) ++x 
 - Java no equivalent
-- JavaScript by default will place var on global window scipe.
+- JavaScript by default will place var on global window scope.
 - Python has global keyword allows function to modify globals variables.
 - Standard C macros (__FILE__, __DATE__, __TIME__, __LINE__)
 - Java has no equivalent.
