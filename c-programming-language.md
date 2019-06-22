@@ -9,10 +9,10 @@
 - Suitable for **system programming** like **operating system** or **compiler development**.
 
 ## Influenced later languages
+- C++ is nearly a superset of C language (There are few programs that may compile in C, but not in C++).
 - Java
 - PHP
 - JavaScript
-- C++ is nearly a superset of C language (There are few programs that may compile in C, but not in C++).
 
 ## Structure of C Program
 - C program must be written in this structure, otherwise it will not compile.
@@ -268,7 +268,7 @@ int main()
 ## int (1 sign bit + 31 data bits)
 - Define any positive or negative integer.
 - According to MinGW the size of one ‘int’ is 4 bytes which is equal to 32 bits (1 byte=8 bits).
-- An ‘int’ type variable in C language is able to store only numbers till 2147483647. Beyond this number ‘int’ fails to store precisely and even not correctly. ‘int’ is a 32 bit data type. 
+- An ‘int’ type variable in C language is able to store only numbers till 2,147,483,647. Beyond this number ‘int’ fails to store precisely and even not correctly. ‘int’ is a 32 bit data type. 
 - Whenever a number is being assigned to an ‘int’ type variable, it is first converted to its binary representation (that is in 0’s and 1’s) then it is kept in memory at specific location. 
 - The sign is also represented by binary digits, 0 for positive sign and 1 for negative sign.
 
@@ -290,11 +290,11 @@ int main()
 
 2. Compilation
 - The next step is to compile filename.i and produce an intermediate compiled output file filename.s. 
-- This file is in assembly level instructions.
+- This file is in **assembly level instructions**.
 
 3. Assembly
 - In this phase the filename.s is taken as input and turned into filename.o by assembler. 
-- This file contain machine level instructions. 
+- This file contain **machine level instructions**. 
 - At this phase, only existing code is converted into machine language, the function calls like printf() are not resolved.
 
 4. Linking
@@ -337,7 +337,7 @@ int main()
 1. Keyword: 
 - Keywords are pre-defined or reserved words in a programming language. 
 - Each keyword is meant to perform a specific function in a program. 
-- Keywords are referred names for a compiler, they can’t be used as variable names.. You cannot redefine keywords.
+- Keywords are referred names for a compiler, they can’t be used as variable names. You cannot redefine keywords.
 - However, you can specify text to be substituted for keywords before compilation by using C/C++ preprocessor directives.
 - C language supports 32 keywords which are given below:
 ```c
